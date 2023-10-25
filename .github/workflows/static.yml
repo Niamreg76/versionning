@@ -23,3 +23,6 @@ jobs:
 
     - name: Run Tests
       run: node test.js
+  
+    - name: Exécuter le test 2
+      run: node test2.js
