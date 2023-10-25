@@ -1,4 +1,4 @@
-name: JavaScript Tests
+name: Exécution des tests
 
 on:
   push:
@@ -21,8 +21,8 @@ jobs:
     - name: Install dependencies
       run: npm install
 
-    - name: Run Tests
+    - name: Exécuter le test 1
       run: node test.js
-  
+
     - name: Exécuter le test 2
       run: node test2.js
