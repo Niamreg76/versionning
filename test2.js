@@ -1,10 +1,11 @@
-function testFailure() {
-    if (1 === 2) {
-      console.log("Le test a réussi !");
+function testAddition() {
+    const result = 1 + 2;
+    if (result === 3) {
+      console.log("Le test d'addition a réussi !");
     } else {
-      throw new Error("Le test a échoué : 1 n'est pas égal à 2");
+      throw new Error("Le test d'addition a échoué");
     }
   }
   
-  testFailure();
+  testAddition();
   
