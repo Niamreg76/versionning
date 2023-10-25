@@ -16,7 +16,7 @@ jobs:
     - name: Setup Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14'
+        node-version: '18.18'
 
     - name: Install dependencies
       run: npm install
@@ -26,3 +26,6 @@ jobs:
 
     - name: Exécuter le test 2
       run: node test2.js
+    
+    - name: Exécuter le test 3
+      run: node variable.test.js
