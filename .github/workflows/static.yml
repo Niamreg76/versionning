@@ -28,4 +28,4 @@ jobs:
       run: node test2.js
     
     - name: Exécuter le test 3
-      run: node variable.test.js
+      run: npx jest variable.test.js
