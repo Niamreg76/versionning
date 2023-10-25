@@ -1,1 +1,3 @@
-let variable = 2;
+// variable.js
+const variable = 2;
+module.exports = { variable };
