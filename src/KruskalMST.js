@@ -21,7 +21,7 @@ exports.getKruskalTree = function (graph) {
     for (const node of nodes) {
         node.cycle = i++;
     }
-
+    //// changement a valider
     cloneGraph.sort(jadGraph.compareByWeight);
     while (cloneGraph.length > 0) {
         let edge = cloneGraph.shift();
